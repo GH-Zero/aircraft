@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    margin-top: -25px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 15px rgba(0, 0, 0, 0.7) solid; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.btnleftsj {
+    border: 10px gray solid;
+    border-radius: 20px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: calc(50% - 50px);
+}
+
+.btnrightsj {
+    position: absolute;
+    border: 10px gray solid;
+    width: 80px;
+    height: 80px;
+    right: 0;
+    border-radius: 20px;
+    top: calc(50% - 50px);
+}
+
+.wrapper .begin {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: url("/飞机大战/img/{86FE467D-7CE3-90E7-0533-6C32A1E166CD}.jpg") no-repeat center;
+}
+
+.wrapper .begin .logo {
+    position: absolute;
+    left: calc(50% - 125px);
+    top: calc(50% - 50px);
+    width: 250px;
+    height: 100px;
+    border: 10px rgb(22, 202, 61) solid;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: rgb(255, 251, 251);
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.1)
+}
+
+.wrapper .begin .logo:hover {
+    cursor: pointer;
+}
+
+.wrapper .over {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url("/飞机大战/img/{86FE467D-7CE3-90E7-0533-6C32A1E166CD}.jpg") no-repeat center;
+}
+
+.wrapper .over:hover {
+    cursor: pointer;
+}
+
+.wrapper .over div {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.wrapper .over .game-over {
+    width: 400px;
+    height: 150px;
+    line-height: 150px;
+    left: calc(50% - 200px);
+    font-size: 50px;
+    letter-spacing: 25px;
+    top: 80px;
+}
+
+.wrapper .over .game-defeng {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 0;
+    left: calc(50% - 100px);
+    line-height: 50px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.wrapper .over .game-defeng .fenshu {
+    margin-left: 60px;
+}
+
+.wrapper .over .game-again {
+    width: 140px;
+    height: 50px;
+    border: 5px gray solid;
+    top: 370px;
+    left: calc(50% - 85px);
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .easy {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url("/飞机大战/img/{86FE467D-7CE3-90E7-0533-6C32A1E166CD}.jpg") no-repeat center;
+}
+
+.wrapper .easy div {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 7px rgb(210, 255, 11) solid;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 20px;
+    left: calc(50% - 100px);
+}
+
+.wrapper .easy div:hover {
+    cursor: pointer;
+}
+
+.wrapper .easy .easy-one {
+    top: calc(25% - 25px);
+}
+
+.wrapper .easy .easy-two {
+    top: calc(50% - 25px);
+}
+
+.wrapper .easy .easy-three {
+    top: calc(75% - 25px);
+}
+
+.wrapper .content {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.content .zd {
+    position: absolute;
+    width: 4px;
+    height: 22px;
+    top: 530px;
+    left: calc(50% - 2px);
+}
+
+.content .mefj {
+    position: absolute;
+    bottom: 0;
+    left: 325px;
+    width: 50px;
+    height: 50px;
+}
+
+.show {
+    display: block !important;
+}
+
+.doow {
+    display: none !important;
+}
+
+.content .dff img {
+    width: 100%;
+}
+
+#cooo {
+    background: url('/飞机大战/img/background.png') no-repeat center;
+    background-size: cover;
+}
+
+.content .dffj {
+    position: absolute;
+    width: 40px;
+    height: 42px;
+    transform: rotate(0deg);
+    z-index: 999;
+}
